@@ -1,0 +1,363 @@
+.day {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 15px;
+  width: 135px;
+  margin: 0;
+}
+.month {
+  position: relative;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 15px;
+  width: 140px;
+  margin: 0;
+  transform: translate(-5px);
+}
+.year {
+  position: absolute;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 15px;
+  width: 148px;
+  margin: 0;
+  transform: translate(-11px);
+}
+.periodo {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px;
+  width: 200px;
+}
+
+.bluecardinfo {
+  background: #f4f8fc;
+  border-radius: 5px;
+  padding: 55px 15px 55px 15px;
+}
+.bluecardinfo-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 126%;
+  color: #262a37;
+}
+.red-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 116.5%;
+  color: #fd4460;
+}
+.line-1 {
+  position: absolute;
+  background: #fd4460;
+  height: 5px;
+  width: 145px;
+  transform: translate(0px, 20px);
+  z-index: -1;
+}
+.line-2 {
+  position: absolute;
+  background: #c4c4c4;
+  height: 5px;
+  width: 345px;
+  transform: translate(-150px, 20px);
+  z-index: -1;
+}
+.line-3 {
+  position: absolute;
+  background: #c4c4c4;
+  height: 5px;
+  width: 370px;
+  transform: translate(-100px, 20px);
+  z-index: -1;
+}
+.x45-1 {
+  background: #fd4460;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  padding: 8px 23px 8px 23px;
+  border-radius: 50px;
+}
+.x45-2 {
+  background: #c4c4c4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+}
+.x45-3 {
+  background: #c4c4c4;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+}
+.subcontent {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 116.5%;
+  color: #6c6c6c;
+}
+
+.alinearradio {
+  position: relative;
+  left: 50%;
+}
+
+.form-label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.5px;
+  line-height: 22px;
+  text-align: right;
+
+  color: #6c6c6c;
+}
+.form-control {
+  border: 1.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border: 1.5px solid #c4c4c4;
+  box-shadow: 0px 4px 5px rgba(240, 22, 109, 0.25);
+}
+
+.bluecardtipo {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.bluecardtipo-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  color: #262a37;
+}
+
+.faqbtn {
+  border: none;
+  background: #fd4460;
+  box-shadow: inset 0px -4px 20px 15px rgba(185, 16, 41, 0.25);
+  border-radius: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+@media (max-width: 1680px) {
+}
+@media (max-width: 1399px) {
+  .bluecardinfo {
+    height: 310px;
+  }
+  .line-1 {
+    width: 95px;
+  }
+  .line-2 {
+    width: 290px;
+  }
+  .line-3 {
+    transform: translate(-115px, 20px);
+    width: 340px;
+  }
+
+  .day {
+    width: 120px;
+  }
+  .month {
+    width: 120px;
+    
+  }
+  .year {
+    width: 120px;
+    transform: translate(-8px);
+  }
+  .periodo{
+    width: 175px;
+  }
+}
+@media (max-width: 1199px) {
+  .bluecardinfo {
+    height: auto;
+  }
+  .line-3 {
+    width: 300px;
+  }
+
+  .day {
+    width: 99px;
+  }
+  .month {
+    width: 99px;
+  }
+  .year {
+    width: 99px;
+  }
+  .periodo{
+    width: 145px;
+  }
+}
+@media (max-width: 991px) {
+  .bluecardinfo {
+    height: 280px;
+  }
+  .line-1 {
+    width: 95px;
+  }
+  .line-2 {
+    transform: translate(-65px, 20px);
+    width: 355px;
+  }
+  .line-3 {
+    display: none;
+  }
+
+  .day {
+    width: 72px;
+    padding-left: 2px;
+  }
+  .month {
+    width: 72px;
+    padding-left: 2px;
+  }
+  .year {
+    width: 72px;
+    padding-left: 2px;
+  }
+  .periodo{
+    width: 105px;
+  }
+  .form-label{
+    font-size: 12px;
+  }
+  .faqbtn{
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .bluecardinfo {
+    height: auto;
+  }
+  .line-1 {
+    transform: translate(-85px, 20px);
+    width: 155px;
+  }
+  .line-2 {
+    transform: translate(-65px, 20px);
+    width: 355px;
+  }
+
+  .day {
+    width: 172px;
+    padding-left: 15px;
+  }
+  .month {
+    width: 172px;
+    padding-left: 15px;
+  }
+  .year {
+    width: 172px;
+    padding-left: 15px;
+  }
+  .periodo{
+    width: 255px;
+  }
+  .form-label{
+    font-size: 18px;
+  }
+  .faqbtn{
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .line-1 {
+    transform: translate(-35px, 20px);
+    width: 55px;
+  }
+  .line-2 {
+    width: 295px;
+  }
+  .subcontent{
+    font-size: 18px;
+  }
+
+  .day {
+    width: 100%;
+    transform: none;
+    border-radius: 5px;
+  }
+  .month {
+    width: 100%;
+    transform: none;
+    border-radius: 5px;
+  }
+  .year {
+    position: relative;
+    width: 100%;
+    transform: none;
+    border-radius: 5px;
+  }
+  .periodo{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form-label{
+    font-size: 18px;
+  }
+  .faqbtn{
+    font-size: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .line-2 {
+    width: 245px;
+  }
+  .subcontent{
+    font-size: 12px;
+  }
+}
+@media (max-width: 340px) {
+  .line-2 {
+    width: 215px;
+  }
+  .form-label{
+    font-size: 12px;
+  }
+  .faqbtn{
+    font-size: 12px;
+  }
+}

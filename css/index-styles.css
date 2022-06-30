@@ -1,0 +1,130 @@
+.redcard {
+  box-sizing: border-box;
+  background: #fff0f2;
+  border-radius: 5px;
+  padding: 107px;
+}
+.redcard-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #fd4460;
+}
+.redcard-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #716c80;
+}
+
+.redcard-btn a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #fd4460;
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  border-radius: 30px;
+  padding: 12px 35px 12px 35px;
+}
+.redcard-img {
+  position: absolute;
+  transform: translateY(-225px);
+}
+
+.greycard {
+  background: #f4f8fc;
+  border-radius: 0px;
+  height: 380px;
+  padding: 20px 25px 20px 25px;
+}
+.greycard-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+.greycard-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #716c80;
+}
+
+
+
+@media (max-width: 1399px) {
+  .redcard-img {
+    width: auto;
+    transform: translate(-50px,-196px);
+    z-index: 1;
+  }
+  .greycard{
+    height: 450px;
+  }
+}
+@media (max-width: 1199px) {
+  .redcard{
+    padding: 70px;
+    height: 1116px;
+  }
+  .redcard-img {
+    transform: translate(100px,20px);
+  }
+  .greycard{
+    height: 400px;
+  }
+  .index-img{
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .redcard{
+    padding: 50px;
+    height: 1180px;
+  }
+  .redcard-img {
+    transform: translate(40px,25px);
+  }
+  .index-img{
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .redcard{
+    height: 1075px;
+  }
+  .redcard-img {
+    width: 420px;
+    transform: translate(0px,20px);
+  }
+  .greycard{
+    height: auto;
+  }
+
+}
+@media (max-width: 575px) {
+  .redcard{
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+  .redcard-img {
+    display: none;
+  }
+  .title, .content{
+    padding: 15px;
+  }
+
+}

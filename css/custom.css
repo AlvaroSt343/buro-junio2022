@@ -1,0 +1,869 @@
+/* estilos generales ej: navbar footer etc */
+html,
+body {
+  overflow-x: hidden;
+}
+
+iframe {
+  max-width: 100%;
+  height: 450px;
+}
+
+.bgc-r {
+  background: #fff0f2;
+  padding: 70px 0;
+}
+.valign-txt {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cs {
+  height: 8vw;
+}
+.bgc-bw {
+  background: #f4f8fc;
+  border-radius: 0px;
+  padding: 100px 0px;
+  margin-top: 50px;
+}
+.bgc-bw2 {
+  background: #f4f8fc;
+  border-radius: 0px;
+  padding: 30px;
+  margin-top: 50px;
+}
+.title-1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 4.4px;
+  color: #262a37;
+}
+.title-3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 31px;
+  color: #716c80;
+}
+.redbanner-img1 {
+  position: absolute;
+  left: 10px;
+  transform: translate(0px, -60px);
+}
+.redbanner-img2 {
+  position: absolute;
+  right: 260px;
+  transform: translate(0px, -160px);
+}
+.redtext-redBanner {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: #fd4460;
+}
+.text-redBanner {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 47px;
+  text-align: center;
+  color: #262a37;
+}
+.btn-redBanner {
+  background: #fd4460;
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  border-radius: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 35px;
+  text-decoration: none;
+}
+.idea-img {
+  position: absolute;
+  transform: translate(420px, -200px);
+}
+.card1x {
+  background: #ffffff;
+  border-radius: 5px;
+  /* padding: 40px 60px; */
+}
+.card1x-redTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fd4460;
+}
+.card1x-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #716c80;
+}
+.card1x-btn {
+  background: #fd4460;
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  border-radius: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 35px;
+}
+
+.btn-desliza {
+  position: absolute;
+  z-index: 12;
+  right: 10%;
+  transform: translateY(-100px);
+}
+.borde {
+  background: linear-gradient(
+    251.24deg,
+    #dd0d2c 6.4%,
+    #fd4460 62.68%,
+    #fd4460 62.68%
+  );
+  box-shadow: 0px 0px 30px 10px rgba(253, 68, 96, 0.09);
+  padding: 10px 18px 10px 18px;
+  border-radius: 50px;
+}
+
+.baja {
+  font-size: 2rem;
+  color: white;
+}
+
+.pol-card {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.title-card {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+.content-card {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #716c80;
+}
+
+.pol-imgC {
+  position: absolute;
+  transform: translate(-45px, -20px);
+}
+
+.card2x {
+  background: #f4f8fc;
+  border-radius: 5px;
+}
+.card2x-redTitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fd4460;
+}
+.card2x-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  color: #716c80;
+}
+.card2x-btn {
+  background: #fd4460;
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+  border-radius: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 35px;
+}
+
+.pol-big-img-1{
+  position: absolute;
+  left: 0;
+  transform: translateY(-3vw);
+  width: 48%;
+}
+.pol-big-img-2{
+  position: absolute;
+  right: 0;
+  transform: translateY(-2vw);
+  width: 48%;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  margin-top: 80px;
+}
+.my-100 {
+  margin: 180px 0;
+}
+.customnav {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px rgba(185, 16, 41, 0.25);
+}
+.nav-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  color: #000000 !important;
+  transition: 300ms;
+}
+.nav-link:hover {
+  color: #fd4460 !important;
+  transition: 300ms;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.37);
+}
+.dropdown-item {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #000000 !important;
+  transition: 300ms;
+}
+.dropdown-item:hover {
+  color: #fd4460 !important;
+  transition: 300ms;
+  background-color: white;
+}
+
+.btn-contrato {
+  text-decoration: none !important;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  padding: 11px 35px 11px 35px;
+  color: #ffffff;
+  background: #fd4460;
+
+  border-radius: 30px;
+  transition: 300ms;
+}
+.btn-contrato:hover {
+  color: #962525 !important;
+  transition: 300ms;
+  box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+}
+
+/* ------ footer ------- */
+.footer-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #c5c5c5;
+}
+.footer-textlinks,
+.footer-suscription,
+.footer-contact {
+  font-family: Poppins;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #c5c5c5;
+}
+.footer-textlinks:hover {
+  color: #fd4460;
+}
+.footer-subs {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.footer-input {
+  background: #3a3a3a;
+  border-radius: 10.87px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7c7c7c;
+  padding: 16px 26px 16px 26px;
+  border: none;
+  width: 100%;
+}
+.footer-btn-suscription {
+  font-family: Poppins;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #fd4460;
+  border-radius: 10.87px;
+  padding: 19px 60px 19px 60px;
+  border: none;
+}
+.footer-copy {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #616161;
+}
+/* ------ footer ------- */
+
+.title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #262a37;
+}
+.title2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 112.5%;
+  color: #fd4460;
+}
+.subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  color: #716c80;
+}
+.content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #716c80;
+}
+
+/* estilos de tarjetas de pago y contacto */
+.paycard-requisitos {
+  box-sizing: border-box;
+  background: #f4f8fc;
+  border-radius: 5px;
+  padding: 40px 48px 40px 48px;
+  height: 300px;
+}
+.paycard {
+  box-sizing: border-box;
+  background: #f4f8fc;
+  border-radius: 5px;
+  padding: 40px 48px 40px 48px;
+  height: 220px;
+}
+.paycard-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+.paycard-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #716c80;
+}
+.paycard-img-1 {
+  position: absolute;
+  transform: translate(50px, -40px);
+}
+.paycard-img-2 {
+  position: absolute;
+  transform: translate(-100px, 15px);
+}
+.paycard-img-3 {
+  position: absolute;
+  transform: translate(-40px, -45px);
+}
+
+.contactredcard {
+  background: #fff0f2;
+  border-radius: 5px;
+  padding: 107px;
+}
+
+.contratoredcard {
+  background: #fff0f2;
+  border-radius: 5px;
+  padding: 107px;
+}
+
+.contactbluecard {
+  background: #f4f8fc;
+  border-radius: 5px;
+  padding: 107px;
+}
+
+.pretitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  color: #262a37;
+}
+.contactsubtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  color: #716c80;
+}
+.contactbtn,
+.btn-protect {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #fd4460;
+  border-radius: 30px;
+  padding: 12px 35px 12px 35px;
+  transition: 300ms;
+}
+
+.contactbtn:hover,
+.btn-protect:hover {
+  transform: translateY(-10px);
+  color: white;
+  box-shadow: 1px 13px 11px -8px rgba(237, 39, 118, 0.377);
+  transition: 300ms;
+}
+
+.contactbtn2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #262a37;
+  text-decoration: none;
+  background: #ffffff;
+  /* box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25); */
+  border-radius: 30px;
+  padding: 12px 35px 12px 35px;
+}
+
+.contact-img {
+  position: absolute;
+  width: 500px;
+  transform: translateY(-170px);
+}
+.contact-img22 {
+  position: absolute;
+  width: 500px;
+  transform: translateY(-170px);
+}
+.contact-img33 {
+  position: absolute;
+  width: 550px;
+  transform: translateY(-173px);
+}
+
+.redbackground {
+  background-color: #fff0f2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.bluebackground {
+  background-color: #f4f8fc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contrato-img {
+  position: absolute;
+  transform: translateY(40px);
+}
+
+/* estilos de tarjetas de pago y contacto */
+
+.marcabreak {
+  display: none;
+}
+
+@media (max-width: 440px) {
+  .marcabreak {
+    display: flex;
+  }
+}
+
+/* margenes especiales */
+.margtop-6 {
+  margin-top: 30px;
+}
+.margtop-7 {
+  margin-top: 40px;
+}
+.margtop-8 {
+  margin-top: 50px;
+}
+.margtop-9 {
+  margin-top: 60px;
+}
+.margtop-10 {
+  margin-top: 70px;
+}
+.margtop-11 {
+  margin-top: 80px;
+}
+.margtop-12 {
+  margin-top: 90px;
+}
+
+.margbtm-6 {
+  margin-bottom: 30px;
+}
+.margbtm-7 {
+  margin-bottom: 40px;
+}
+.margbtm-8 {
+  margin-bottom: 50px;
+}
+.margbtm-9 {
+  margin-bottom: 60px;
+}
+.margbtm-10 {
+  margin-bottom: 70px;
+}
+.margbtm-11 {
+  margin-bottom: 80px;
+}
+.margbtm-12 {
+  margin-bottom: 90px;
+}
+/* margenes especiales */
+
+.protect-img {
+  position: absolute;
+  transform: translateY(-60px);
+  right: 0;
+}
+
+.protec-img-2 {
+  display: none;
+}
+
+@media (max-width: 1680px) {
+  .protect-img {
+    margin-top: 80px;
+    width: 800px;
+  }
+}
+@media (max-width: 1399px) {
+  .pol-big-img-1, .pol-big-img-2{
+    transform: translateY(130px);
+  }
+
+  .redbanner-img1,
+  .redbanner-img2 {
+    display: none;
+  }
+  .protect-img {
+    margin-top: 180px;
+    width: 700px;
+  }
+  .contact-img {
+    position: absolute;
+    transform: translate(-90px, -120px);
+  }
+  .contact-img22 {
+    position: absolute;
+    transform: translate(-120px, -170px);
+  }
+  .contact-img33 {
+    position: absolute;
+    transform: translate(-90px, -75px);
+  }
+  .contrato-img {
+    width: 380px;
+    transform: translateY(100px);
+  }
+  .pol-imgC {
+    transform: translate(-40px, -20px);
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-lg-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+@media (max-width: 1199px) {
+  .protec-img-1 {
+    width: 100%;
+  }
+  .protec-img-3 {
+    width: 100%;
+  }
+  .protect-img {
+    margin-top: 180px;
+    width: 550px;
+  }
+  .contact-img {
+    position: absolute;
+    width: 450px;
+    transform: translate(-70px, -115px);
+  }
+  .contact-img33 {
+    position: absolute;
+    width: 450px;
+    transform: translate(-70px, -15px);
+  }
+  .contactredcard {
+    padding: 60px;
+  }
+  .contactbluecard {
+    padding: 60px;
+  }
+
+  .paycard {
+    height: 260px;
+  }
+  .paycard-img-1 {
+    transform: translate(0px, -20px);
+  }
+  .paycard-img-2 {
+    position: absolute;
+    transform: translate(-130px, 50px);
+  }
+  .paycard-img-3 {
+    position: absolute;
+    transform: translate(-70px, -5px);
+  }
+  .contact-img22 {
+    position: absolute;
+    transform: translate(-80px, -130px);
+    width: 420px;
+  }
+  .pol-imgC {
+    transform: translate(-45px, -30px);
+  }
+  .pol-card {
+    height: 180px;
+  }
+}
+@media (max-width: 991px) {
+  .pol-big-img-1, .pol-big-img-2{
+    position: relative;
+    width: 100%;
+    transform: none;
+  }
+
+  .pol-card {
+    height: auto;
+  }
+  .pol-imgC {
+    transform: translate(-30px, -35px);
+  }
+  .idea-img {
+    display: none;
+  }
+  .section1 {
+    margin-top: 0;
+  }
+  .protec-img-1 {
+    display: none;
+  }
+  .protec-img-2 {
+    margin-top: 60px;
+    display: flex;
+  }
+  .protec-img-3 {
+    margin-top: 80px;
+    width: 80%;
+  }
+  .protect-img {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .contact-img {
+    position: absolute;
+    width: 215px;
+    transform: translate(420px, -200px);
+  }
+  .contact-img22 {
+    position: absolute;
+    width: 215px;
+    transform: translate(420px, -200px);
+  }
+  .contact-img33 {
+    position: relative;
+    width: 415px;
+    transform: translate(80px, 30px);
+  }
+  .contactredcard {
+    padding: 30px;
+  }
+  .contactbluecard {
+    padding: 30px;
+  }
+
+  .contratoredcard {
+    padding: 50px;
+  }
+  .contrato-img {
+    position: relative;
+    width: 480px;
+    transform: translate(55px, 20px);
+  }
+}
+@media (max-width: 767px) {
+  .pol-imgC {
+    transform: translate(-42px, -35px);
+  }
+  .contact-img {
+    position: relative;
+    width: 300px;
+    transform: translate(50px, 30px);
+  }
+  .contact-img22 {
+    position: relative;
+    width: 300px;
+    transform: translate(50px, 30px);
+  }
+  .contact-img33 {
+    position: relative;
+    width: 300px;
+    transform: translate(50px, 30px);
+  }
+  .contrato-img {
+    width: 400px;
+    transform: translate(10px, 20px);
+  }
+}
+@media (max-width: 575px) {
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    margin-top: 30px;
+  }
+
+  .protec-img-1 {
+    width: 80%;
+  }
+  .protec-img-2 {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .protec-img-3 {
+    margin-top: 40px;
+    width: 80%;
+  }
+  .contrato-img {
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  .contact-img {
+    position: relative;
+    width: 280px;
+    transform: translate(-20px, 30px);
+  }
+  .contact-img22 {
+    position: relative;
+    width: 280px;
+    transform: translate(-20px, 30px);
+  }
+  .contact-img33 {
+    position: relative;
+    width: 280px;
+    transform: translate(-20px, 30px);
+  }
+  .paycard {
+    height: 300px;
+    padding: 20px;
+  }
+  .paycard-img-1 {
+    transform: translate(-20px, 30px);
+  }
+  .paycard-img-2 {
+    position: absolute;
+    transform: translate(-170px, 100px);
+  }
+  .paycard-img-3 {
+    position: absolute;
+    transform: translate(-110px, 45px);
+  }
+}
+@media (max-width: 335px) {
+  .pol-imgC {
+    transform: translate(-295px, -20px);
+  }
+}

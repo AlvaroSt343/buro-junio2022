@@ -1,0 +1,153 @@
+body{
+  overflow-x: hidden;
+}
+.content2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+
+.redtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-size: 26px;
+}
+.minititle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+  margin-bottom: 8px;
+}
+.minisubtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fd4460;
+  margin-bottom: 40px;
+}
+.minititle2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+.extratext {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262a37;
+}
+.linea {
+  position: absolute;
+  background: #fd4460;
+  width: 3px;
+  height: 105px;
+  transform: translateX(28px);
+  z-index: -1;
+}
+.linea-const {
+  position: absolute;
+  background: #fd4460;
+  width: 3px;
+  height: 250px;
+  transform: translateX(28px);
+  z-index: -1;
+}
+.circle {
+  background: #fd4460;
+  border-radius: 30px;
+  width: 58px;
+  height: 58px;
+}
+.number {
+  position: absolute;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  transform: translate(24px, 12px);
+}
+.divisor {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.titleasc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  color: #716c80;
+}
+
+
+.nota-img{
+  position: absolute;
+  transform: translate(25px,-40px);
+}
+@media (max-width: 1835px) {
+  .nota-img{
+    position: absolute;
+    transform: translate(-30px,-40px);
+  }
+}
+@media (max-width: 1750px) {
+  .nota-img{
+    position: absolute;
+    transform: translate(-80px,-40px);
+  }
+}
+
+@media (max-width: 1199px) {
+  .paycard-requisitos{
+    height: 365px;
+  }
+}
+@media (max-width: 991px) {
+  .linea-const{
+    height: 280px;
+  }
+  .paycard-requisitos{
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .padxs{
+    padding-left: 27%;
+    margin-bottom: 40px;
+  }
+  .linea{
+    height: 190px;
+  }
+  .linea-const{
+    height: 480px;
+  }
+}
+
+@media (max-width: 372px) {
+  .padxs{
+    padding-left: 27%;
+    margin-bottom: 40px;
+  }
+  .linea{
+    height: 220px;
+  }
+  .linea-const{
+    height: 490px;
+  }
+}

@@ -1,0 +1,6 @@
+.textoslide{
+    position: absolute;
+    color: blue;
+    font-size: 40px;
+    transform: translate(350px,-150px);
+}
