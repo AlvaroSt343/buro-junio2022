@@ -125,13 +125,13 @@
     <img src="/img/banners/banner-contrato-poliza.png" alt="..." width="100%">
 
     <!-- boton desliza -->
-    <!-- <div class="btn-desliza d-sm-block d-md-none">
+    <div class="btn-desliza d-sm-block d-md-none">
         <div class="borde">
             <center>
                 <a href="#btn"><i class="bi bi-chevron-down baja"></i></a>
             </center>
         </div>
-    </div> -->
+    </div>
     <!-- boton desliza -->
 
     <section class="mt-5">
@@ -141,7 +141,7 @@
                     <div class="title-1">
                         EMPIEZA AQUÍ
                     </div>
-                    <div class="title">
+                    <div class="title" id="btn">
                         Selecciona tu póliza
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                         <div class="labelR">
                             Póliza jurídica básica
                         </div>
-                        <input checked type="radio" name="tipopoliza" id="basica" value="basica">
+                        <input checked type="radio" class="polizas" name="tipopoliza" id="basica" value="basica">
                     </label>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 text-center">
@@ -160,7 +160,7 @@
                         <div class="labelR">
                             Póliza jurídica Total
                         </div>
-                        <input type="radio" name="tipopoliza" id="total" value="total">
+                        <input type="radio" class="polizas" name="tipopoliza" id="total" value="total">
                     </label>
                 </div>
             </div>
@@ -172,9 +172,10 @@
                     <div class="input-group">
                         <span class="input-group-text">$</span>
                         <input type="text" class="form-control" name="importerenta" id="importerenta"
-                            placeholder="6000">
+                            onblur="compruebaValidoEntero()" placeholder="6000">
                         <span class="input-group-text">.00</span>
                     </div>
+                    <div class="mal" style="display: block;"></div>
                 </div>
             </div>
         </div>
@@ -367,24 +368,17 @@
     <!-- Footer -->
 
 
-    <script>
-        $(document).ready(function () {
-            $(".muestra50").click(function (evento) {
-                var valor = $(this).val();
-                if (valor == 'Divide') {
-                    $("#div1").show();
-                } else {
-                    $("#div1").hide();
-                }
-            });
-        });
-    </script>
+
+
 
 
     <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
         </script>
+
+    <!-- manejador de radios -->
+    <script src="./js/handle-radios.js"></script>
 
     <script src="assets/js/vendor/modernizr-3.6.0.min.js" rel="preload async media"></script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js" rel="preload async media"></script>
