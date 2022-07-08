@@ -251,7 +251,7 @@
                         <div class="labelR">
                             1 Años
                         </div>
-                        <input checked type="radio" name="duracion" id="1" value="1">
+                        <input checked type="radio" class="duracion" name="duracion" id="1" value="1">
                     </label>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2 col-6 mb-3 text-center">
@@ -262,7 +262,7 @@
                         <div class="labelR">
                             2 Años
                         </div>
-                        <input type="radio" name="duracion" id="2" value="2">
+                        <input type="radio" class="duracion" name="duracion" id="2" value="2">
                     </label>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2 col-6 mb-3 text-center">
@@ -273,7 +273,7 @@
                         <div class="labelR">
                             3 Años
                         </div>
-                        <input type="radio" name="duracion" id="3" value="3">
+                        <input type="radio" class="duracion" name="duracion" id="3" value="3">
                     </label>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2 col-6 mb-3 text-center">
@@ -284,7 +284,7 @@
                         <div class="labelR">
                             4 Años
                         </div>
-                        <input type="radio" name="duracion" id="4" value="4">
+                        <input type="radio" class="duracion" name="duracion" id="4" value="4">
                     </label>
                 </div>
                 <div class="col-sm-6 col-md-3 col-lg-2 col-6 mb-3 text-center">
@@ -295,7 +295,7 @@
                         <div class="labelR">
                             5 Años
                         </div>
-                        <input type="radio" name="duracion" id="5" value="5">
+                        <input type="radio" class="duracion" name="duracion" id="5" value="5">
                     </label>
                 </div>
             </div>
@@ -306,8 +306,8 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-sm-12 col-md-6 col-lg-5 mb-3">
-                    <div class="precios1">
-                        Total: $ 4,050
+                    <div class="precios1" >
+                        Total: <span id="totalB" name="totalB" >0.00</span>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-5 mb-3">
@@ -317,7 +317,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-10 mb-3">
                     <div class="precios3">
-                        Total a pagar: $ 3,645
+                        Total a pagar: <span id="totalA" name="totalA" >0.00</span>
                     </div>
                 </div>
             </div>
