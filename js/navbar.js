@@ -57,7 +57,7 @@ agregar_nav.innerHTML =
                     <a class="nav-link mx-2" href="contacto.html">Contáctanos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="nueva-poliza.html">CONTRATA POLIZA</a>
+                    <a class="nav-link mx-2" href="nueva-poliza.php">CONTRATA POLIZA</a>
                 </li>
             </ul>
             

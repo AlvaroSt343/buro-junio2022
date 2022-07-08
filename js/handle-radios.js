@@ -125,10 +125,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -138,10 +144,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -151,10 +163,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -164,10 +182,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -177,10 +201,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -190,10 +220,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -203,10 +239,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -216,10 +258,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -229,10 +277,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -242,10 +296,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -255,10 +315,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -268,10 +334,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -281,10 +353,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -294,10 +372,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -307,10 +391,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -320,10 +410,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -333,10 +429,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -346,10 +448,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -359,10 +467,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -372,10 +486,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -385,10 +505,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -398,10 +524,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -411,10 +543,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -424,10 +562,16 @@ function compruebaValidoEntero() {
                 var result = calculaduracion(duracion, valortabla);
                 var result1 = calculaprecioporduracion(duracion, valortabla);
                 res1 = numberFormat.format(result1);
+                document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                 document.querySelector("#totalB").innerHTML = `
                     ${res1}
                 `;
                 res = numberFormat.format(result);
+                document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                 document.querySelector("#totalA").innerHTML = `
                     ${res}
                 `;
@@ -440,312 +584,456 @@ function compruebaValidoEntero() {
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 3001 && imp <= 5000) {
                     var valortabla = 3850;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 5001 && imp <= 7000) {
                     var valortabla = 4050;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 7001 && imp <= 10000) {
                     var valortabla = 4500;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 10001 && imp <= 15000) {
                     var valortabla = 5600;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 15001 && imp <= 20000) {
                     var valortabla = 6800;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 20001 && imp <= 25000) {
                     var valortabla = 8500;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 25001 && imp <= 30000) {
                     var valortabla = 10200;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 30001 && imp <= 35000) {
                     var valortabla = 11900;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 35001 && imp <= 40000) {
                     var valortabla = 13600;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 40001 && imp <= 45000) {
                     var valortabla = 15300;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 45001 && imp <= 50000) {
                     var valortabla = 17000;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 50001 && imp <= 55000) {
                     var valortabla = 18700;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 55001 && imp <= 60000) {
                     var valortabla = 20400;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 60001 && imp <= 65000) {
                     var valortabla = 22100;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 65001 && imp <= 70000) {
                     var valortabla = 23800;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 70001 && imp <= 75000) {
                     var valortabla = 25500;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 75001 && imp <= 80000) {
                     var valortabla = 27200;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 80001 && imp <= 85000) {
                     var valortabla = 28900;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 85001 && imp <= 90000) {
                     var valortabla = 30600;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 90001 && imp <= 95000) {
                     var valortabla = 32300;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 95001 && imp <= 100000) {
                     var valortabla = 34000;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 100001 && imp <= 105000) {
                     var valortabla = 35700;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
                 if (imp >= 105001) {
                     var valortabla = imp * 0.40;
                     var result = calculaduracion(duracion, valortabla);
                     var result1 = calculaprecioporduracion(duracion, valortabla);
                     res1 = numberFormat.format(result1);
+                    document.getElementById("totalBB").value = `
+                    ${result1}
+                `;
                     document.querySelector("#totalB").innerHTML = `
-                        ${res1}
-                    `;
+                    ${res1}
+                `;
                     res = numberFormat.format(result);
+                    document.getElementById("totalAA").value = `
+                    ${result}
+                `;
                     document.querySelector("#totalA").innerHTML = `
-                        ${res}
-                    `;
+                    ${res}
+                `;
                 }
             }
         }

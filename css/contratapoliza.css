@@ -16,9 +16,11 @@
     padding: 50px;
     width: 100%;
 }
-.polizacontainer:hover{
+
+.polizacontainer:hover {
     cursor: pointer;
 }
+
 .card-poliza {
     background: #FFFFFF;
     border-radius: 5px;
@@ -85,6 +87,34 @@
     letter-spacing: 1.4px;
 }
 
+.inputpad1 {
+    border: none;
+    background: none;
+    letter-spacing: 1.4px;
+    color: #FD4460;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: auto;
+    text-align: start;
+    display: none;
+}
+
+.inputpad2 {
+    border: none;
+    background: none;
+    letter-spacing: 1.4px;
+    color: #262A37;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: auto;
+    text-align: start;
+    display: none;
+}
+
 .disclaimer {
     font-family: 'Inter';
     font-style: normal;
@@ -121,6 +151,7 @@
     font-size: 20px;
     width: 100%;
 }
-.optcard:hover{
+
+.optcard:hover {
     cursor: pointer;
 }

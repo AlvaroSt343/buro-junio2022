@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 require 'vendor/autoload.php';
 
@@ -7,10 +8,9 @@ require 'vendor/autoload.php';
 
 function calculateOrderAmount(array $items): int
 {
-    // Replace this constant with a calculation of the order's amount
-    // Calculate the order total on the server to prevent
-    // people from directly manipulating the amount on the client
-    return 1400;
+    $amount = $_SESSION['importetotal'];
+    $result = $amount * 100;
+    return $result;
 }
 
 header('Content-Type: application/json');
@@ -23,7 +23,7 @@ try {
     // Create a PaymentIntent with amount and currency
     $paymentIntent = \Stripe\PaymentIntent::create([
         'amount' => calculateOrderAmount($jsonObj->items),
-        'currency' => 'eur',
+        'currency' => 'mxn',
         'automatic_payment_methods' => [
             'enabled' => true,
         ],
