@@ -469,7 +469,8 @@ session_start();
                         </div>
                         <div class="input-group">
                             <span class="input-group-text">$</span>
-                            <input type="text" class="form-control" name="importerenta" id="importerenta" onblur="compruebaValidoEntero()" placeholder="6000">
+                            <input type="text" class="form-control" name="importerenta"
+                             id="importerenta" onblur="compruebaValidoEntero()" placeholder="6000" required>
                             <span class="input-group-text">.00</span>
                         </div>
                         <div class="mal" style="display: block;"></div>
